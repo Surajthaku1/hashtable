@@ -1,0 +1,28 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+namespace ConsoleApp5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Hashtable data = new Hashtable();
+            data.Add(78,"76uyu");
+            data.Add("hj", 77);
+            data.Add(67, "tyguhj");
+            data.Add(90, 78);
+            foreach(object e in data.Keys)
+            {
+                Console.WriteLine(data[e]);
+            }
+            Console.ReadLine();
+
+
+        }
+    }
+}
